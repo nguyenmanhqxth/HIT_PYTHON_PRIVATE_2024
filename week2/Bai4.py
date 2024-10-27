@@ -1,0 +1,8 @@
+HoTen = input("Nhập họ và tên : ")
+Tuoi = int(input("Nhập tuổi : "))
+GioiTinh = input("Nhập giới tính : ")
+TTHN = input("Nhập tình trạng hôn nhân  : ")
+print("Họ và tên : ", HoTen)
+print("Tuổi : ", Tuoi)
+print("Giới tính : ", GioiTinh)
+print("Tình trạng hôn nhân : ", TTHN)
