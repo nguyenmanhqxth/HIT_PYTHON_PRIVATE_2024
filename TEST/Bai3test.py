@@ -7,6 +7,8 @@ number = 0
 vitri1 = 0
 vitri2 = 0
 
+
+
 for i in range(len(codesautach)) :
     if codesautach[i] == "[":
         number = int(codesautach[i-1])
@@ -21,7 +23,6 @@ vitricuoi = coded_str.rindex("]")
 if vitricuoi < len(codesautach):
     for i in range(vitricuoi+1,len(codesautach)):
         a+=codesautach[i]
-
 print(a)
 
 

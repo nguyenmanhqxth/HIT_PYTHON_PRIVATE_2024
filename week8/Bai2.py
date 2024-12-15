@@ -4,7 +4,7 @@ class Person:
         self.yob = yob
 
     def describe(self):
-        pass  # Override in child classes
+        pass  
 
 
 class Student(Person):
@@ -69,7 +69,6 @@ class Ward:
         return sum(teacher.yob for teacher in teachers) / len(teachers)
 
 
-# Example usage
 student1 = Student(name="studentA", yob=2010, grade="7")
 teacher1 = Teacher(name="teacherA", yob=1969, subject="Math")
 teacher2 = Teacher(name="teacherB", yob=1995, subject="History")
